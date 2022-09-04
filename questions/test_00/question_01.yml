@@ -2,7 +2,7 @@ type: MultipleChoiceQuestion
 id: statements
 value: 2
 prompt: |
-    Выберите все верные утверждения:
+    # Выберите все верные утверждения:
 choices:
 
   - ~CORRECT~ Для любой квадратной $A$ справедливо $\mathrm{det}(A^\top) = \mathrm{det}(A)$.
