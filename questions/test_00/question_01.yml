@@ -1,5 +1,6 @@
 type: MultipleChoiceQuestion
 id: statements
+velue: 2
 prompt: |
     # Statements
     Выберите все верные утверждения:
