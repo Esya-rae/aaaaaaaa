@@ -1,0 +1,12 @@
+type: ChoiceQuestion
+id: krylov
+value: 2
+prompt: |
+    # Matrix determinator
+    Чему равен определитель матрицы 
+choices:
+
+  - ~CORRECT~ 0
+  - 1
+  - 13
+  - -9
