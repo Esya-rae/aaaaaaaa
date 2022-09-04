@@ -79,7 +79,7 @@ groups:
     shuffle: True
     pages:
     -
-        {{ indented_include("questions/pdf-file-upload-example.yml", 8) }}
+        {{ indented_include("questions/question_reshape_0.yml", 8) }}
 
 
 completion_text: |
