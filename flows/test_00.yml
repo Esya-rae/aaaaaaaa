@@ -72,7 +72,7 @@ groups:
         {{ indented_include("questions/test_00/question_02.yml", 8) }}
 
     -
-        {{ indented_include("questions/test_00/question_02.yml", 8) }}
+        {{ indented_include("questions/test_00/question_03.yml", 8) }}
 
 -
     id: quiz_tail
