@@ -1,0 +1,12 @@
+type: MultipleChoiceQuestion
+id: ice_cream_toppings
+prompt: |
+    # Ice Cream Toppings
+    Выберите все верные утверждения:
+choices:
+
+  - ~CORRECT~ Для любой квадратной $A$ справедливо $\mathrm{det}(A^\top) = \mathrm{det}(A)$.
+  - ~CORRECT~ Для обратимой $A$ справедливо $\mathrm{det}(A^{-1}) = \mathrm{det}(A)^{-1}$
+  - Детерминант квадратной матрицы всегда равен произведению ее собственных значений.
+  - Для любых двух квадратных матриц $A,B$ одного размера верно, что $\mathrm{det}(AB) = \mathrm{det}(A) \mathrm{det}(B)$.
+
