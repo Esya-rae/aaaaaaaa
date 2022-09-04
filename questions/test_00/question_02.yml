@@ -1,7 +1,6 @@
 type: ChoiceQuestion
 id: test_00_question_02
 value: 2
-credit_mode: proportional
 prompt: |
     # Верно ли, что любой минор невырожденной квадратной матрицы является невырожденным?
 choices:
