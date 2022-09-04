@@ -4,7 +4,7 @@ description: |
 rules:
     access:
     -
-        if_has_role: [student, ta, instructor]
+        if_has_role: [unenrolled, student, ta, instructor]
         permissions: [view]
 
     grade_identifier: null
@@ -15,24 +15,20 @@ pages:
     type: Page
     id: lecture_video_01
     content: |
-        # A little distraction to start
-        Здесь можно посмотреть (пока прошлогоднюю) первую лекцию
+        # Здесь можно посмотреть (пока прошлогоднюю) первую лекцию
         {% from "content-macros.jinja" import youtube %}
         {{ youtube("QH2-TGUlwu4") }}
 -
     type: Page
     id: lecture_TEX_01
     content: |
-         #Place for TEX for first lecture
-         А здесь можно посмотреть материалы по лекции
+         # А здесь можно посмотреть материалы по лекции
          [PDF](repocur:pdfs/lectures/01/tex.pdf)
 -
     type: Page
     id: lecture_notes_01
     content: |
-         #Place for notes for first lecture
-         А здесь можно посмотреть заметки по лекции
+         # А здесь можно посмотреть заметки по лекции
          [PDF](repocur:pdfs/lectures/01/notes.pdf)
 completion_text: |
-    # End of Linear Algebra Recap
-    Пройдите квиз по этому материалу [quiz](flow:quiz-test).
+    # Пройдите квиз по этому материалу [quiz](flow:quiz-test).
