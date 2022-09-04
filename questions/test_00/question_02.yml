@@ -1,11 +1,11 @@
 type: ChoiceQuestion
 id: test_00_question_02
 value: 2
+credit_mode: proportional
 prompt: |
-    # Minor
     Верно ли, что любой минор невырожденной квадратной матрицы является невырожденным?
 choices:
 
   - ~CORRECT~ Не верно
-  - <plain>Верно
+  - Верно
 
