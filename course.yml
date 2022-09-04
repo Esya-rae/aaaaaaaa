@@ -18,7 +18,7 @@ chunks:
         Всем привет!
         
         Можете начать с материалов первой лекции [материалов первой лекции](flow:lecture_01)
-        # [PDF](repocur:/course/ao/f/pdfs/lectures/01/tex.pdf)
+        # [PDF](repocur: pdfs/lectures/01/tex.pdf)
         
         Или пройти первый квиз [sample quiz](flow:quiz-test)
 
