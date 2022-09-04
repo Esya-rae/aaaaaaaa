@@ -4,17 +4,28 @@
 {# may do undesired things with such deeply indented content. #}
 
 {% macro youtube(id) -%}
-  <iframe width="420" height="315" src="//www.youtube.com/embed/{{id}}" frameborder="0" allowfullscreen>
-  </iframe>
-  <iframe width="420" height="315"
-    src="https://www.youtube.com/embed/{{id}}">
-  </iframe>
+<iframe width="420" height="315" src="//www.youtube.com/embed/{{id}}" frameborder="0" allowfullscreen>
+</iframe>
+<iframe width="420" height="315"
+  src="https://www.youtube.com/embed/{{id}}">
+</iframe>
 
-  <div class="well" markdown="1">
-    (This embedded video was brought to you by the `youtube` macro.
-    See [this macro definition file](https://github.com/inducer/relate-sample/blob/master/macros.jinja)
-    in the sample content repository for an example of how to do define macros.)
-  </div>
+<div class="well" markdown="1">
+  (This embedded video was brought to you by the `youtube` macro.
+  See [this macro definition file](https://github.com/inducer/relate-sample/blob/master/macros.jinja)
+  in the sample content repository for an example of how to do define macros.)
+</div>
+<div style="width: 560px; height: 315px; float: none; clear: both; margin: 2px auto;">
+  <embed
+    src="https://www.youtube.com/embed/J---aiyznGQ"
+    wmode="transparent"
+    type="video/mp4"
+    width="100%" height="100%"
+    allow="autoplay; encrypted-media; picture-in-picture"
+    allowfullscreen
+    title="Keyboard Cat"
+  >
+</div>
 {%- endmacro %}
 
 
