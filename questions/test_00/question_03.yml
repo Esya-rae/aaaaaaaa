@@ -2,7 +2,6 @@ type: ChoiceQuestion
 id: determinant
 value: 2
 prompt: |
-    # Matrix determinant
     Чему равен определитель матрицы $\begin{bmatrix}1 & 5 & 9 & 1 \\ 2 & 6 & 10 & 2 \\ 3 & 7 & 11 & 3 \\ 4 & 8 & 12 & 4  \end{bmatrix}$
 choices:
 
