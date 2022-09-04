@@ -16,7 +16,7 @@ pages:
     id: lecture_video_01
     content: |
         # Здесь можно посмотреть (пока прошлогоднюю) первую лекцию
-        {% from "macros.jinja" import youtube %}
+        {% from "content-macros.jinja" import youtube %}
         {{ youtube("Ko6r7Q4Jnz8") }}
 -
     type: Page
