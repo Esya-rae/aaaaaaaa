@@ -78,7 +78,6 @@ chunks:
     id: exam_pointer
     rules:
     -
-        if_in_facility: test_center
         if_after: 2022-09-01
         weight: 200
 
