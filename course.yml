@@ -14,13 +14,12 @@ chunks:
 
     content: |
 
-        # Hi there!
-        Всем привет!
+        # Всем привет!
         
         Можете начать с материалов первой лекции [материалов первой лекции](flow:lecture_01)
         # [PDF](repocur:pdfs/tex.pdf)
         
-        Или пройти первый квиз [sample quiz](flow:quiz-test)
+        Или пройти первый квиз [квиз](flow:test_00)
 
         # Check out the [linear algebra recap](flow:001-linalg-recap). Do it now. Do it.
 
