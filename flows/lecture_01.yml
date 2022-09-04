@@ -24,4 +24,4 @@ pages:
         [Заметки](repocur:pdfs/lecture_01_notes.pdf) по лекции
         
 completion_text: |
-    # Пройдите квиз по этому материалу [quiz](flow:quiz-test).
+    # Пройдите [тест](flow:quiz-test) по этому материалу.
