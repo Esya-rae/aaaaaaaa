@@ -16,19 +16,19 @@ pages:
     id: lecture_video_01
     content: |
         # Здесь можно посмотреть (пока прошлогоднюю) первую лекцию
-        {% from "content-macros.jinja" import youtube %}
-        {{ youtube("QH2-TGUlwu4") }}
+        {% from "macros.jinja" import youtube %}
+        {{ youtube("Ko6r7Q4Jnz8") }}
 -
     type: Page
     id: lecture_TEX_01
     content: |
          # А здесь можно посмотреть материалы по лекции
-         [PDF](repocur:../pdfs/sample.pdf)
+         [PDF](repocur:pdfs/lecture_01_tex.pdf)
 -
     type: Page
     id: lecture_notes_01
     content: |
          # А здесь можно посмотреть заметки по лекции
-         [PDF](repocur:pdfs/lectures/01/notes.pdf)
+         [PDF](repocur:pdfs/lecture_01_notes.pdf)
 completion_text: |
     # Пройдите квиз по этому материалу [quiz](flow:quiz-test).
