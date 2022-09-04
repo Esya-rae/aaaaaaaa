@@ -26,7 +26,7 @@ pages:
          #Place for TEX for first lecture
          А здесь можно посмотреть материалы по лекции
          [PDF](repocur:pdfs/lectures/01/tex.pdf)
- -
+-
     type: Page
     id: lecture_notes_01
     content: |
