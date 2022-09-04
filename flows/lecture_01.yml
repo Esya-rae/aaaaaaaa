@@ -23,7 +23,7 @@ pages:
     id: lecture_TEX_01
     content: |
          # А здесь можно посмотреть материалы по лекции
-         [PDF](repocur:pdfs/lectures/01/tex.pdf)
+         [PDF](repocur:pdfs/sample.pdf)
 -
     type: Page
     id: lecture_notes_01
