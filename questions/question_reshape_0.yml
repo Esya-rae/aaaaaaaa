@@ -1,0 +1,37 @@
+type: PythonCodeQuestionWithHumanTextFeedback
+id: py_reshape
+access_rules:
+    add_permissions:
+        - change_answer
+value: 4
+human_feedback_percentage: 25
+timeout: 10
+
+prompt: |
+    # Making a list
+    Ваш код получит на вход матрицу *a* (2х3). Верните *b*(3х2), решейпнутой в порядке по строкам матрицей *a*.
+show_setup_code: False
+setup_code: |
+    import numpy as np
+    a = np.random.rand(2,3)
+names_for_user: [a]
+
+names_from_user: [b]
+
+show_test_code: False
+test_code: |
+    if not isinstance(b, ndarray):
+        feedback.finish(0, "b should be a ndarray.")
+    if not np.shape(b) == (3, 2):
+        feedback.finish(0, "The shape of b is not correct.")
+    if not a.reshape((3, 2), 'C') == b:
+        feedback.finish(0.3, "The elements in b have wrong values.")
+    feedback.finish(1, "b looks good.")
+correct_code: |
+    b = a.reshape((3, 2), 'C')
+rubric: |
+    The code has to be squeaky-clean.
+initial_code: |
+    # Create reshaped a
+    import numpy as np
+    b = ...
