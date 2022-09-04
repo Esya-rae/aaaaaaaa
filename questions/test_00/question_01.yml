@@ -7,5 +7,5 @@ prompt: |
 choices:
 
   - ~CORRECT~ Не верно
-  - Верно
+  - <plain>Верно
 
