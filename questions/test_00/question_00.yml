@@ -1,7 +1,7 @@
 type: MultipleChoiceQuestion
-id: ice_cream_toppings
+id: statements
 prompt: |
-    # Ice Cream Toppings
+    # Statements
     Выберите все верные утверждения:
 choices:
 
