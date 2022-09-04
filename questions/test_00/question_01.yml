@@ -1,6 +1,7 @@
 type: MultipleChoiceQuestion
 id: statements
 value: 2
+credit_mode: proportional
 prompt: |
     # Выберите все верные утверждения:
 choices:
