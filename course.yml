@@ -17,7 +17,8 @@ chunks:
         # Hi there!
         Всем привет!
         
-        Можете начать с материала первой лекции [PDF](repocur:pdfs/sample.pdf)
+        Можете начать с материалов первой лекции [материалов первой лекции](flow:lecture_01)
+        # [PDF](repocur:pdfs/sample.pdf)
         
         Или пройти первый квиз [sample quiz](flow:quiz-test)
 
