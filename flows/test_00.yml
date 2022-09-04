@@ -66,13 +66,13 @@ groups:
     # Pages can be given in-line (like this one) or brought in by including
     # them from other files, as below.
     -
-        {{ indented_include("questions/matrix-properties.yml", 8) }}
+        {{ indented_include("questions/test_00/question_01.yml", 8) }}
 
     -
-        {{ indented_include("questions/multi-question-example.yml", 8) }}
+        {{ indented_include("questions/test_00/question_02.yml", 8) }}
 
     -
-        {{ indented_include("questions/survey-age-question.yml", 8) }}
+        {{ indented_include("questions/test_00/question_02.yml", 8) }}
 
 -
     id: quiz_tail
