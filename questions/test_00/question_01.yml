@@ -1,0 +1,11 @@
+type: ChoiceQuestion
+id: minor
+value: 2
+prompt: |
+    # Minor
+    Верно ли, что любой минор невырожденной квадратной матрицы является невырожденным?
+choices:
+
+  - ~CORRECT~ Не верно
+  - Верно
+
