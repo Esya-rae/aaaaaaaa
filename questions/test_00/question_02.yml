@@ -1,5 +1,5 @@
 type: ChoiceQuestion
-id: minor
+id: minor_0
 value: 2
 prompt: |
     # Minor
