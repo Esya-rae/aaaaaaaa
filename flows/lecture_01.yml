@@ -1,6 +1,6 @@
 title: "Лекция 01"
 description: |
-    # Основы матричного анализа (14.01.2022). Векторные и матричные нормы. Скалярное произведение и ортогональность. Разложение Шура
+    # Лекция 01. Основы матричного анализа 
 rules:
     access:
     -
@@ -13,22 +13,14 @@ pages:
 
 -
     type: Page
-    id: lecture_video_01
+    id: lecture_01
     content: |
-        # Здесь можно посмотреть (пока прошлогоднюю) первую лекцию
-        {% from "content-macros.jinja" import youtube %}
-        {{ youtube("Ko6r7Q4Jnz8") }}
--
-    type: Page
-    id: lecture_TEX_01
-    content: |
-         # А здесь можно посмотреть материалы по лекции
-         [PDF](repocur:pdfs/lecture_01_tex.pdf)
--
-    type: Page
-    id: lecture_notes_01
-    content: |
-         # А здесь можно посмотреть заметки по лекции
-         [PDF](repocur:pdfs/lecture_01_notes.pdf)
+        # Основы матричного анализа (14.01.2022). Векторные и матричные нормы. Скалярное произведение и ортогональность. Разложение Шура
+        ## Здесь можно посмотреть (пока прошлогоднюю) первую лекцию
+        [youtube](https://youtu.be/Ko6r7Q4Jnz8)
+        ## А здесь можно посмотреть материалы по лекции
+        [PDF](repocur:pdfs/lecture_01_tex.pdf)
+        # А здесь можно посмотреть заметки по лекции
+        [PDF](repocur:pdfs/lecture_01_notes.pdf)
 completion_text: |
     # Пройдите квиз по этому материалу [quiz](flow:quiz-test).
