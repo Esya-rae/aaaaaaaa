@@ -1,0 +1,10 @@
+type: MultipleChoiceQuestion
+id: question_01_04
+value: 2
+credit_mode: proportional
+prompt: |
+    # Выберите все верные утверждения:
+choices:
+
+  - Косоэрмитовы матрицы являются нормальными.
+  - ~CORRECT~ Строки унитарных матриц ортонормированы.
