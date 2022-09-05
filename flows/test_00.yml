@@ -37,7 +37,7 @@ rules:
         message: "Welcome! This message is brought to you by the access rules."
         permissions: [view, submit_answer, end_session]
 
-    grade_identifier: test_00
+    grade_identifier: test_01
     grade_aggregation_strategy: use_earliest
 
     grading:
