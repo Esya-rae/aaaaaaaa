@@ -1,0 +1,89 @@
+# This is a YAML comment, which is entirely ignored.
+
+# YAML files in Relate are preprocessed with Jinja2.
+# See http://jinja.pocoo.org/docs/latest/templates/ for syntax.
+
+# This brings in a helper function that is used to include pages from
+# separate files. This is optional, but conceivably useful.
+{% from "yaml-macros.yml" import indented_include %}
+
+title: "Тест 1"
+
+# The "|" character introduces a 'block literal', which means all text indented below
+# it is taken literally. The description property holds text marked up with 'Markdown'.
+# See https://documen.tician.de/relate/content.html#relate-markup for more.
+#
+# So the '#' character below introduces a first-level headline (not a comment).
+description: |
+
+    # Тест 1
+    Тест на проверку знаний после первой лекции
+
+rules:
+    start:
+    -
+        if_before: end_week 1
+        if_has_role: [unenrolled, student, ta, instructor]
+        if_has_fewer_sessions_than: 4
+        may_start_new_session: True
+        may_list_existing_sessions: True
+
+    -
+        may_start_new_session: False
+        may_list_existing_sessions: True
+
+    access:
+    -
+        message: "Welcome! This message is brought to you by the access rules."
+        permissions: [view, submit_answer, end_session]
+
+    grade_identifier: test_01
+    grade_aggregation_strategy: use_earliest
+
+    grading:
+    -
+        credit_percent: 100
+
+groups:
+-
+    id: intro
+    pages:
+
+    -
+        type: Page
+        id: welcome
+        content: |
+
+            # Добро пожаловать на первый тест
+
+            Проверка того, на сколько вы поняли первую лекцию
+
+-
+    id: quiz_start
+    shuffle: False
+    pages:
+
+    # Pages can be given in-line (like this one) or brought in by including
+    # them from other files, as below.
+    -
+        {{ indented_include("questions/test_01/question_01.yml", 8) }}
+
+    -
+        {{ indented_include("questions/test_01/question_02.yml", 8) }}
+
+    -
+        {{ indented_include("questions/test_01/question_03.yml", 8) }}
+    
+    -
+        {{ indented_include("questions/test_01/question_04.yml", 8) }}
+
+    -
+        {{ indented_include("questions/test_01/question_05.yml", 8) }}
+
+
+
+completion_text: |
+
+    # Увидимся на парах!
+
+    Спасибо за выполнение квиза
