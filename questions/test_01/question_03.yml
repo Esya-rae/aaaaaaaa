@@ -1,0 +1,12 @@
+type: ChoiceQuestion
+id: question_01_03
+value: 2
+prompt: |
+    # Найдите $\|I\|_p$ при $p=3$, где $I\in\mathbb{R}^{n\times n}$ – единичная квадратная матрица.
+choices:
+
+  -  0
+  - ~CORRECT~ 1
+  - $\sqrt[3]{n}$
+  - n
+  
