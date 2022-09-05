@@ -18,12 +18,10 @@ pages:
         # Основы матричного анализа (14.01.2022). Векторные и матричные нормы. Скалярное произведение и ортогональность. Разложение Шура
         #### Внимание! На данный момент материал прошлогодний.
         Видеозапись первой лекции на [youtube](https://youtu.be/Ko6r7Q4Jnz8)
-        {% from "content-macros.jinja" import youtube %}
-        {{ youtube("QH2-TGUlwu4") }}
         
         Затеханный [материал](repocur:pdfs/lecture_01_tex.pdf) с лекции
         
         [Заметки](repocur:pdfs/lecture_01_notes.pdf) по лекции
         
 completion_text: |
-    # Пройдите [тест](flow:quiz-test) по этому материалу.
+    # Пройдите [тест](flow:test_01) по этому материалу.
