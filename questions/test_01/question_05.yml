@@ -1,0 +1,11 @@
+type: MultipleChoiceQuestion
+id: question_01_05
+value: 2
+credit_mode: proportional
+prompt: |
+    # Выберите все субмультипликативные нормы:
+choices:
+
+  - ~CORRECT~ Норма Фробениуса.
+  - Норма Чебышева.
+  - ~CORRECT~ Матричные p-нормы (p ≥ 1).
