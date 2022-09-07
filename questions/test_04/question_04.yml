@@ -1,0 +1,16 @@
+type: ChoiceQuestion
+id: question_04_04
+value: 2
+prompt: |
+    # Какова асимптотическая сложность вычисления произведения $GA$?
+    Uде $A \in \mathbb{C}^{n\times n}$, а $G$ "--- матрица вращения Гивенса размера $n \times n$.
+    Выберите наиболее точный ответ.
+choices:
+
+  - $O(n \log n)$
+  - $O(n^2 \log n)$
+  - $O(n^2)$
+  - $O(n^3)$
+  - ~CORRECT~ $O(n)$
+  
+ 
