@@ -1,0 +1,14 @@
+
+type: MultipleChoiceQuestion
+id: question_04_03
+value: 2
+credit_mode: proportional
+prompt: |
+    # Выберите все верные утверждения о векторе $Hv\in\mathbb{R}^n$.
+    Вектор $u\in\mathbb{R}^n$, $||u||_2 = 1$ задает матрицу Хаусхолдера $H$. 
+    Вектор $v\in\mathbb{R}^n,$ $||v||_2 = 1$ ортогонален вектору $u$, $v\bot u$. 
+choices:
+
+  - $Hv = 0$
+  - ~CORRECT~ $Hv \bot u$
+  - $Hv$ коллинеарен $u$
