@@ -1,5 +1,5 @@
 type: ChoiceQuestion
-id: question_02_05
+id: question_03_04
 value: 2
 prompt: |
     # Пусть $P$ -- ортопроектор. Чему равно $\|P\|_2$? Выберите наиболее точный ответ.
