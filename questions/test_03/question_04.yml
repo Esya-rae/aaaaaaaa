@@ -1,0 +1,9 @@
+type: ChoiceQuestion
+id: question_02_05
+value: 2
+prompt: |
+    # Существует ли ненулевая матрица $A\in\mathbb{R}^{2\times 2}$, такая что $x^\top A x = 0$ $\forall x\in\mathbb{R}^{2}$?
+choices:
+
+  - ~CORRECT~ Существует
+  - Не существует
