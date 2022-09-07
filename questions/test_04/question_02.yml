@@ -1,0 +1,9 @@
+type: ChoiceQuestion
+id: question_04_02
+value: 2
+prompt: |
+    # Может ли тензор размеров $3 \times 4 \times 1$ иметь таккеровские ранги $(3,4,1)$ ?
+choices:
+
+  - Да
+  - ~CORRECT~ Нет
