@@ -7,8 +7,8 @@ prompt: |
     
 choices:
 
-  - ~CORRECT~ $30 \times 12$
-  - $15 \times 24$
+  - $30 \times 12$
+  - ~CORRECT~ $15 \times 24$
   - $20 \times 18$
   - $8 \times 10$
   - Кронекерово произведение не определено для этих размеров
