@@ -1,9 +1,12 @@
 type: ChoiceQuestion
-id: question_02_05
+id: question_03_03
 value: 2
 prompt: |
-    # Существует ли ненулевая матрица $A\in\mathbb{R}^{2\times 2}$, такая что $x^\top A x = 0$ $\forall x\in\mathbb{R}^{2}$?
+    # Чему равен дифференциал $df(x)$ функции $f(x) = a^\top x$ для заданного $a\in\mathbb{R}^n$?
 choices:
 
-  - ~CORRECT~ Существует
-  - Не существует
+  - $a$
+  - ~CORRECT~ $a^\top dx$
+  - $a^\top$
+  - $2a$
+
