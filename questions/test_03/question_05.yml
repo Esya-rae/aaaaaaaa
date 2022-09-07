@@ -1,0 +1,14 @@
+type: ChoiceQuestion
+id: question_02_05
+value: 2
+prompt: |
+    # Какой размер имеет матрица $A \otimes B$ --- кронекерово произведение матриц $A$ и $B$?
+    Пусть $A \in \mathbb{R}^{5 \times 6}$, а $B \in \mathbb{R}^{3 \times 4}$.
+    
+choices:
+
+  - ~CORRECT~ $30 \times 12$
+  - $15 \times 24$
+  - $20 \times 18$
+  - $8 \times 10$
+  - Кронекерово произведение не определено для этих размеров
