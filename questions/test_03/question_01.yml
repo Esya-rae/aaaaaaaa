@@ -2,8 +2,10 @@ type: ChoiceQuestion
 id: question_03_01
 value: 2
 prompt: |
-    # Существует ли ненулевая матрица $A\in\mathbb{R}^{2\times 2}$, такая что $x^\top A x = 0$ $\forall x\in\mathbb{R}^{2}$?
+    # Найдите матричную производную $\dfrac{\partial}{\partial X} \mathrm{Tr}(X)$, $X \in \mathbb{R}^{n \times n}$
 choices:
 
-  - ~CORRECT~ Существует
-  - Не существует
+  - ~CORRECT~ $I_{n}$ --- единичная матрица порядка $n$
+  - $E \in \mathbb{R}^{n \times n}$, $(E)_{ij} = 1$
+  - $X^\top$
+  - $\mathrm{Tr}(dX)$%$0_{n}$ --- нулевая матрица порядка $n$
