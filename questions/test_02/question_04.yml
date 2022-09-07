@@ -1,0 +1,13 @@
+type: MultipleChoiceQuestion
+id: question_02_04
+value: 2
+credit_mode: proportional
+prompt: |
+    # Выберите все верные формулы для старшего сингулярного числа произвольной матрицы $A$:
+choices:
+
+  - ~CORRECT~ $\sigma_1 = \max_i \sqrt{ \lambda_i (AA^*)}$
+  - ~CORRECT~ $\sigma_1 = \max_i \sqrt{ \lambda_i (A^*A)}$
+  - $\sigma_1 = \max_i |\lambda_i(A)|$
+  - $\sigma_1 = \|A^{-1}\|_2^{-1}$
+  
