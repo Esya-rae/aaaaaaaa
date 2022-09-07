@@ -2,8 +2,9 @@ type: ChoiceQuestion
 id: question_03_02
 value: 2
 prompt: |
-    # Существует ли ненулевая матрица $A\in\mathbb{R}^{2\times 2}$, такая что $x^\top A x = 0$ $\forall x\in\mathbb{R}^{2}$?
+    # Является ли функция $g(X)= \mathrm{Tr}(X^\top X)$, $X\in \mathbb{R}^{m\times n}$, ~о-малым от $\|X\|_F$, при ${X \to 0}$? 
 choices:
 
-  - ~CORRECT~ Существует
-  - Не существует
+  - ~CORRECT~ Да
+  - Нет
+
