@@ -1,0 +1,77 @@
+{% from "yaml-macros.yml" import indented_include %}
+
+title: "Тест 4"
+
+description: |
+
+    # Тест 4
+    Тест на проверку знаний после четвертой лекции
+
+rules:
+    start:
+    -
+        if_before: end_week 4
+        if_has_role: [unenrolled, student, ta, instructor]
+        if_has_fewer_sessions_than: 4
+        may_start_new_session: True
+        may_list_existing_sessions: True
+
+    -
+        may_start_new_session: False
+        may_list_existing_sessions: True
+
+    access:
+    -
+        message: "Welcome! This message is brought to you by the access rules."
+        permissions: [view, submit_answer, end_session]
+
+    grade_identifier: test_04
+    grade_aggregation_strategy: use_earliest
+
+    grading:
+    -
+        credit_percent: 100
+
+groups:
+-
+    id: intro
+    pages:
+
+    -
+        type: Page
+        id: welcome
+        content: |
+
+            # Добро пожаловать на четвертый тест
+
+            Проверка того, на сколько вы поняли четвертую лекцию
+
+-
+    id: quiz_start
+    shuffle: False
+    pages:
+
+    # Pages can be given in-line (like this one) or brought in by including
+    # them from other files, as below.
+    -
+        {{ indented_include("questions/test_04/question_01.yml", 8) }}
+
+    -
+        {{ indented_include("questions/test_04/question_02.yml", 8) }}
+
+    -
+        {{ indented_include("questions/test_04/question_03.yml", 8) }}
+    
+    -
+        {{ indented_include("questions/test_04/question_04.yml", 8) }}
+
+    -
+        {{ indented_include("questions/test_04/question_05.yml", 8) }}
+
+
+
+completion_text: |
+
+    # Увидимся на парах!
+
+    Спасибо за выполнение квиза
