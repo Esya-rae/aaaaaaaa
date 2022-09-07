@@ -1,5 +1,5 @@
 type: ChoiceQuestion
-id: question_02_05
+id: question_03_05
 value: 2
 prompt: |
     # Какой размер имеет матрица $A \otimes B$ --- кронекерово произведение матриц $A$ и $B$?
