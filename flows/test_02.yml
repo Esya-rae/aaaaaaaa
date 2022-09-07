@@ -1,19 +1,7 @@
-# This is a YAML comment, which is entirely ignored.
-
-# YAML files in Relate are preprocessed with Jinja2.
-# See http://jinja.pocoo.org/docs/latest/templates/ for syntax.
-
-# This brings in a helper function that is used to include pages from
-# separate files. This is optional, but conceivably useful.
 {% from "yaml-macros.yml" import indented_include %}
 
 title: "Тест 2"
 
-# The "|" character introduces a 'block literal', which means all text indented below
-# it is taken literally. The description property holds text marked up with 'Markdown'.
-# See https://documen.tician.de/relate/content.html#relate-markup for more.
-#
-# So the '#' character below introduces a first-level headline (not a comment).
 description: |
 
     # Тест 2
