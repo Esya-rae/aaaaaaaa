@@ -68,8 +68,6 @@ groups:
     -
         {{ indented_include("questions/test_02/question_05.yml", 8) }}
 
-
-
 completion_text: |
 
     # Увидимся на парах!
