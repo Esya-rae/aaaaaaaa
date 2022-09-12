@@ -1,13 +1,15 @@
 type: TextQuestion
 id: question_04_05
-value: 5
+is_optional_page: True
 prompt: |
-    # Дана матрица $A \in \mathbb{C}^{10 \times 13}$.
-    Каково минимальное число $k$ такое, что обязательно существуют матрицы Хаусхолдера $H_1, \dots, H_k$ такие, 
-    что произведение $H_1 \dots H_k A$ является верхнетреугольной матрицей (то есть все элементы под главной диагональю нулевые)?   
+  # What is a quarter?
 answers:
-    - type: float
-        value: 9
-        rtol: 1e-4
-    - <plain>9.0
-    - <plain>9,0
+
+  - type: float
+    value: 0.25
+    rtol: 1e-4
+  - <plain>1/4
+  - <plain>a quarter
+  - <plain>四分之一
+ 
+ 
