@@ -1,6 +1,7 @@
 type: TextQuestion
 id: question_04_05
 is_optional_page: False
+value: 2
 prompt: |
   # What is a quarter?
 answers:
